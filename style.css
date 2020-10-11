@@ -1,0 +1,78 @@
+/* ESTILADO USANDO POSITION */
+/* .container{
+    height: 300px;
+    background-color: grey;
+    
+}
+
+.rojo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.naranja{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    right: 50px;
+}
+
+.amarillo{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+} */
+
+
+/* ESTILADO USANDO SÓLO FLEX, PERO QUE NO ES TAN BUENA PRÁCTICA PARA ACCESIBILIDAD */
+/* .image-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+
+    background-image: url("banner.jpg");
+    background-position: center;
+    
+}
+
+.maintitle{
+    background-color: white;
+    
+} */
+
+
+/* ESTILADO COMO EJEMPLO DEL CARRITO DE LA WEB DE ADA  */
+ *{
+     margin: 0%;
+ }
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+}
+
+.menu{
+    width: 200px;
+    height: 100vh;
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ocultar{
+    display: none;
+}
+
+.overlay{
+height: 100vh;
+width: 100vw;
+background-color: rgba(0, 0, 0,0.5 );
+position: absolute;
+top: 0;
+}
